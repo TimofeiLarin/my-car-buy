@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Button } from '../components/UI';
+import RequestsList from '../components/smart/RequestsList';
+import { Wrapper } from '../components/UI';
 
 const List: React.FC = () => {
   return (
-    <div>
-      <h1>List</h1>
-      <Button>Создать заявку</Button>
-    </div>
+    <Wrapper>
+      <RequestsList />
+    </Wrapper>
   );
 };
 
